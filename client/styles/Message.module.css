@@ -1,0 +1,90 @@
+.wrapper {
+    min-height: 60%;
+    height: 60%;
+    width: 25%;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 1px #ccc;
+    background-color: rgba(256, 256, 256, 0.5);
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.messageList {
+    flex: 1;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+.messageList ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.messageBox {
+    display: flex;
+    width: 100%;
+    background-color: rgba(256, 256, 256, 0.8);
+    padding: 1rem;
+}
+
+.messageBox textarea {
+    flex: 1;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.messageBox button {
+    margin-left: 0.5rem;
+    background-color: blueviolet;
+    font-size: 1.25rem;
+}
+
+.message {
+    width: 80%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: solid 2px #333;
+    font-size: 1.25rem;
+    background-color: rgba(256, 256, 256, 0.8);
+}
+
+.selfMessage {
+    width: 80%;
+    margin-left: auto;
+    margin-right: 0px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    border: solid 2px #333;
+    font-size: 1.25rem;
+    background-color: rgba(0, 100, 250, 0.5);
+}
+
+.botMessage {
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.messageInner {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.messageSender {
+    color: #333;
+    font-size: 0.75rem;
+}
+
+.messageBody {
+    word-wrap: break-word;
+}

@@ -1,0 +1,32 @@
+.wrapper {
+    height: 40%;
+    width: 25%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    border-top: solid 1px #ccc;
+    border-bottom: solid 2px #ccc;
+    background-color: rgba(256, 256, 256, 0.5);
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.userListWrapper {
+    padding-bottom: 1rem;
+    flex: 1;
+    
+}
+
+.userList {
+    height: 75%;
+    margin-top: auto;
+    margin-bottom: 0px;
+    list-style: none;
+    overflow-y: scroll;
+    padding: 0;
+}
+
